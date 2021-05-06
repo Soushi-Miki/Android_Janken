@@ -14,13 +14,11 @@
         tools:layout_editor_absoluteX="-124dp"
         tools:layout_editor_absoluteY="-316dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/Player"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Player"
-            android:textSize="30sp" />
+            app:srcCompat="@drawable/goo" />
 
         <ImageView
             android:id="@+id/cpu"
@@ -42,26 +40,26 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <androidx.appcompat.widget.AppCompatButton
+            <ImageView
                 android:id="@+id/gooButton"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="グー" />
+                app:srcCompat="@drawable/goo" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <ImageView
                 android:id="@+id/chokiButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="チョキ" />
+                app:srcCompat="@drawable/choki" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <ImageView
                 android:id="@+id/paaButton"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="パー" />
+                app:srcCompat="@drawable/paa" />
 
         </LinearLayout>
 
